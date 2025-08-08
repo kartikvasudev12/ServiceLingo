@@ -1,0 +1,37 @@
+{
+  "current_stage": null,
+  "history": [
+    {
+      "stage_name": "video_to_audio",
+      "start_time": "2025-08-08T12:02:47.124602+00:00",
+      "end_time": "2025-08-08T12:02:49.147308+00:00"
+    },
+    {
+      "stage_name": "audio_to_text",
+      "start_time": "2025-08-08T12:02:50.155452+00:00",
+      "end_time": "2025-08-08T12:02:52.172633+00:00"
+    },
+    {
+      "stage_name": "text_translate",
+      "start_time": "2025-08-08T12:02:53.187088+00:00",
+      "end_time": "2025-08-08T12:02:55.201568+00:00"
+    },
+    {
+      "stage_name": "text_to_audio",
+      "start_time": "2025-08-08T12:02:56.216322+00:00",
+      "end_time": "2025-08-08T12:02:58.228366+00:00"
+    },
+    {
+      "stage_name": "merge_audio_video",
+      "start_time": "2025-08-08T12:02:59.243156+00:00",
+      "end_time": "2025-08-08T12:03:01.253131+00:00"
+    }
+  ],
+  "total_duration": {
+    "start": "2025-08-08T12:02:47.124602+00:00",
+    "end": "2025-08-08T12:03:01.253131+00:00"
+  },
+  "video_link": "https://s3.amazonaws.com/your-bucket/input.mp4",
+  "output_link": "https://s3.amazonaws.com/your-bucket/output.mp4",
+  "session_active": false
+}
