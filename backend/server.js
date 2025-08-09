@@ -17,7 +17,7 @@ let stageData = {
   total_duration: null,
   video_link: null,
   output_link: null,
-  session_active: false
+  // session_active: false
 };
 
 const saveData = () => {
@@ -31,7 +31,7 @@ const reset = () => {
     total_duration: null,
     video_link: null,
     output_link: null,
-    session_active: false
+    // session_active: false
   };
   saveData();
 };
@@ -47,7 +47,7 @@ app.post('/trigger', (req, res) => {
   }
   reset();
   stageData.video_link = video_link;
-  stageData.session_active = true
+  // stageData.session_active = true
   saveData();
 
   console.log(`🚀 Trigger received for video: ${video_link}`);
@@ -86,7 +86,7 @@ app.post('/stage-update', (req, res) => {
 
     if (stage_name === 'merge_audio_video' && stageData.total_duration) {
       stageData.total_duration.end = timestamp;
-      stageData.session_active = false; 
+      // stageData.session_active = false; 
     }
 
     if (stageData.current_stage?.stage_name === stage_name) {
