@@ -87,7 +87,6 @@ This API is designed to receive stage updates from a Lambda-based video processi
   },
   "video_link": "https://s3.amazonaws.com/your-bucket/input.mp4",
   "output_link": "https://s3.amazonaws.com/your-bucket/output.mp4",
-  "session_active": true
 }
 ```
 
